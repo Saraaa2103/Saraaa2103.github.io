@@ -7,10 +7,24 @@ h1 {
 p {
     color:crimson
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Georgia', serif;
 }
 html {
     background-color: #ffffff; 
 }
-
+a[href*='facebook'] {
+    color:dodgerblue;
+  }
+a[href*='instagram'] {
+    color: deeppink;
+}
+a:hover {
+    color:darkorange;
+  }
+#abc {
+    color:lightcoral;
+}
+#gg {
+    color: darkslateblue;
+}
