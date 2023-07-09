@@ -1,1 +1,14 @@
-a
+Package: gay.saraaa.test
+Name: Test
+Version: 1.0
+Architecture: iphoneos-arm
+Description: nya
+Maintainer: Saraaa
+Author: Saraaa
+Section: Themes
+Depends: firmware (>= 1.0)
+Filename: ./g/Test.deb
+Size: 199400
+MD5sum: f43163590c0f6dc98f9fdb0e997e3665
+SHA1: b0f13f3680f36821572a25dcab5b17dc82081c18
+SHA256: 07938a71d05c46a0130b3a5460ed7e4b3276d061309c81eca6bac9138d55593a
