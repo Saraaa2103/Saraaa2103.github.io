@@ -9,6 +9,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Georgia', serif;
+    
 }
 html {
     background-color: #ffffff; 
@@ -19,6 +20,9 @@ a[href*='facebook'] {
 a[href*='instagram'] {
     color: deeppink;
 }
+a[href*='pronouns'] {
+    color: rgb(232, 35, 206);
+}
 a:hover {
     color:darkorange;
   }
@@ -26,5 +30,48 @@ a:hover {
     color:lightcoral;
 }
 #gg {
-    color: darkslateblue;
+    color: rgb(162, 150, 243);
+}
+.bg-image {
+    /* The image used */
+    background-image: url("https://cdn.wallpapersafari.com/42/75/l6bIEq.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+.idkidk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: auto;
+    max-height: 1080px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+}
+
+.facebook {
+    font-family: 'Georgia', serif;
+}
+.instagram {
+    font-family: 'Georgia', serif;
+}
+.pronouns {
+    font-family: 'Georgia', serif;
 }
