@@ -67,6 +67,8 @@ a:hover {
 }
 
 .facebook {
+    visibility: visible;
+    position: relative;
     font-family: 'Georgia', serif;
 }
 .instagram {
