@@ -80,3 +80,9 @@ a:hover {
 #meowwww {
     color:pink
 }
+a[href*='webpage'] {
+    color: deeppink;
+}
+.webpage {
+    font-family: 'Georgia', serif;
+}
