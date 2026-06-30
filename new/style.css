@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url(back.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    inset: -10px;
+    filter: blur(6px);
+    z-index: -1;
+}
+
+.int {
+    z-index: 2;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.int h1 {
+    margin: 0;
+}
+
+.profile-picture {
+    z-index: 2;
+    width: clamp(120px, 25vw, 150px);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 4px transparent;
+    border-radius: 50%;
+}
+
+.abtme {
+    z-index: 2;
+    width: min(100%, 700px);
+    text-align: center;
+    color:papayawhip;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+
+.age-clock {
+    z-index: 2;
+    padding: 14px 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.age-clock p {
+    margin: 0 0 8px;
+}
+
+#age {
+    font-weight: bold;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    z-index: 2;
+}
+
+.link img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 16px;
+        gap: 18px;
+    }
+
+    .int h1 {
+        font-size: 1.8rem;
+    }
+
+    .abtme {
+        font-size: 0.95rem;
+    }
+
+    .link img {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+.heart {
+  position: fixed;
+  font-size: 1.5rem;
+  top: -1vh;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  from {
+     transform: translateY(0vh) translateX(-10vw); 
+  }
+  to {
+     transform: translateY(105vh) translateX(10vw); 
+  }
+} 
