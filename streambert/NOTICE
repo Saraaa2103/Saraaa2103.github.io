@@ -1,0 +1,20 @@
+Streambert Web v1.0.0
+Copyright 2026 Streambert Web contributors
+
+Based on Streambert v2.6.0 by truelockmc and contributors.
+Upstream: https://github.com/truelockmc/streambert
+Inspected commit: 18207c43fc982d4a25ad8f061690cb6fda8b452e
+Distributed under the GNU General Public License, version 3 only.
+See LICENSE. Complete modified application and extension source is available
+from the app's /streambert-web-source.zip download.
+
+Modifications: replaced the Electron UI and IPC with a dependency-free browser
+interface; rebuilt catalogue discovery, watchlist, history, import/export and
+local playback; adapted the upstream ad/tracker host policy to an optional
+Chromium MV3 companion, required for third-party embedded playback.
+Desktop-only features are documented in README.md.
+
+DM Sans fonts are retained from upstream's bundled assets.
+DM Sans is licensed under the SIL Open Font License 1.1; see public/fonts/OFL.txt.
+Starter images: TMDB image CDN; see public/posters/SOURCES.md.
+This product uses the TMDB API but is not endorsed or certified by TMDB.
