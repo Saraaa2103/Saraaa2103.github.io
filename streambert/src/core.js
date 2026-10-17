@@ -51,3 +51,6 @@ export function playerUrl(source,media,season=1,episode=1) {
 export function mayEmbed(protection) {
   return protection.active === true && protection.nonceVerified === true;
 }
+export function mayLaunchPlayer(protection) {
+  return mayEmbed(protection) && protection.playerSupported === true;
+}
